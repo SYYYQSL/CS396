@@ -17,9 +17,14 @@ if (btn) {
   btn.onclick = function() {
     // The JS works in conjunction with the 'dipped' code in style.css
     btn.classList.toggle("dipped");
+    console.log("haha");
   };
 }
 
+// Run this function after the page is loaded
+document.addEventListener("DOMContentLoaded", function(){
+    console.log("Hello, webpage!")
+});
 // This is a single line JS comment
 /*
 This is a comment that can span multiple lines 
