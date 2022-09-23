@@ -96,7 +96,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  background-color: var(--color-bg);
+  background-image: url("https://th.bing.com/th/id/OIP.wZpdsZC4wTMVH4o7MOpcrAHaLG?pid=ImgDet&rs=1");
 }
 
 /* Page structure */
@@ -116,7 +116,6 @@ body {
 /* Very light scaling for our illustration */
 .title {
   color: #2800FF;
-  font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
