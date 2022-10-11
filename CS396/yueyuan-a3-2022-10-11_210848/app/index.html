@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+<head>
+  <title>yueyuan-a3</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- External libs -->
+    <!-- 	<script  src="js/vendor/kates-utilities.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+
+    <!-- Your code in here -->
+    <script src="brushes.js"></script>
+
+    <!-- Sets up all the swatches -->
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>yueyuan-a3</h1>
+      <h2>
+        Please use the curves brush at the end<br />
+        Use other brushes first
+      </h2>
+      <a href="https://yueyuan-a1.glitch.me"> my portfolio</a>
+      <a href="https://glitch.com/edit/#!/yueyuan-a3">remix code</a>
+    </header>
+
+    <div id="canvas-holder"></div>
+    <div id="controls">
+      <div id="brush-desc">-current brush-</div>
+      <div class="row">
+        <div id="buttons"></div>
+        <div class="">
+          <input type="color" id="color0" />
+          <input type="color" id="color1" />
+          <input type="range" id="size" min="0" max="1" step=".05" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
